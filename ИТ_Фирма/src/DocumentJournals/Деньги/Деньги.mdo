@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83ac822d-e828-4b43-a05e-2ce2ae8913a7">
+  <producedTypes>
+    <selectionType typeId="c8e99eb2-cd4b-4f8f-8550-4959ba0205f9" valueTypeId="8b0c8f77-1559-4329-801f-093aea3c4cba"/>
+    <listType typeId="3e4412d0-d76e-43e8-a634-1c1d811cf8af" valueTypeId="342a7b24-cad9-41c5-b68b-ff166af59457"/>
+    <managerType typeId="0c443999-3406-49c9-a32c-cf9303c97cd7" valueTypeId="740ab9d2-c239-4695-bfe3-a08a1a1f7994"/>
+  </producedTypes>
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеДенежныхСредств</registeredDocuments>
+  <registeredDocuments>Document.СписаниеДенежныхСредств</registeredDocuments>
+  <columns uuid="e868dfee-5dd5-4859-ad00-9c1451513f3d">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеДенежныхСредств.Attribute.Плательщик</references>
+    <references>Document.СписаниеДенежныхСредств.Attribute.Получатель</references>
+  </columns>
+  <columns uuid="c0a38348-312e-4d0b-a1b4-dfeefd76e7ad">
+    <name>Ответвственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответвственный</value>
+    </synonym>
+    <references>Document.ПоступлениеДенежныхСредств.Attribute.Ответственный</references>
+    <references>Document.СписаниеДенежныхСредств.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="6a42169a-6f9a-48f8-8c64-abe86ee1ae9c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ПоступлениеДенежныхСредств.Attribute.Сумма</references>
+    <references>Document.СписаниеДенежныхСредств.Attribute.Сумма</references>
+  </columns>
+</mdclass:DocumentJournal>

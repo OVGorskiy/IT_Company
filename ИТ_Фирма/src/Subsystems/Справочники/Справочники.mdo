@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="022669d0-a015-463e-bd9f-3c6daad514e3">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Catalog</picture>
+  </picture>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.ПроверкаДлительностиСеанса</content>
+  <content>Enum.ПолСотрудника</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>Enum.ЮридическоеФизическоеЛицо</content>
+  <content>Enum.ТипНоменклатуры</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Упаковки</content>
+  <subsystems>СмотретьТакже</subsystems>
+</mdclass:Subsystem>

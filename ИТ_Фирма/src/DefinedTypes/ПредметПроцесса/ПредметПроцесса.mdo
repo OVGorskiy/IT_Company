@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0123092f-a447-4f04-bc1b-84428e4eef38">
+  <producedTypes>
+    <containerType typeId="220ec349-3a02-4e21-b955-4bb3f3ae9215" valueTypeId="3166af96-de3e-45a4-b44f-d621e0a3c14a"/>
+  </producedTypes>
+  <name>ПредметПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предмет процесса</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

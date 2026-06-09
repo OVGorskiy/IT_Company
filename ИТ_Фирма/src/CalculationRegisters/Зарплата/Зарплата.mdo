@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa15506a-305b-4882-8c27-9914b958873a">
+  <producedTypes>
+    <selectionType typeId="394156eb-3856-438b-b0ea-3009c4b753df" valueTypeId="674df45b-7df2-4277-97f8-6fd4a7607680"/>
+    <listType typeId="d9587ae2-12fe-434e-a5f5-0b0dfb0b8570" valueTypeId="e7275dd9-dbbc-4968-9e42-3a394d1503bb"/>
+    <managerType typeId="ae594ac5-fc5e-4cf2-aa06-4c8d1b3a5e85" valueTypeId="c85637ad-35c7-43aa-bf95-03785627823e"/>
+    <recordSetType typeId="d3ef1b8b-caa7-4e3b-92b9-2bc6e6e9a096" valueTypeId="3a5b9e08-60b0-4039-af1d-c37ad0a79b7d"/>
+    <recordKeyType typeId="638f7afc-632a-4895-a27f-76f896f5c1ad" valueTypeId="a622ef26-882f-4bd9-84c0-8ae70a5790ab"/>
+    <recordType typeId="a256e62d-9f00-4857-901d-e14fc235a4dd" valueTypeId="d580b022-a91c-42a3-8f2b-a8bb7eba3eb1"/>
+    <recalcsType typeId="3290cf23-b117-4a49-b824-dfe92ab84652" valueTypeId="d4f4ba14-9947-4f30-a4a3-1595ae2d4f91"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.Календарь</schedule>
+  <scheduleValue>InformationRegister.Календарь.Resource.РабочихДней</scheduleValue>
+  <scheduleDate>InformationRegister.Календарь.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.НачисленияУдержания</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6a0c3679-cd17-4c4e-b6aa-620cd0985bde">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="e450195b-8240-4219-94e1-3e7c860a93c0">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="f3dc254a-208a-46a5-91be-b386c845bb27">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

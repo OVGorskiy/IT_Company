@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="445a8d58-33b1-4f56-abc0-9f60339d933f">
+  <producedTypes>
+    <selectionType typeId="5bd49066-8635-40b6-87a5-18942c36ce75" valueTypeId="84ff0578-0f9c-4167-8f4c-c16bfb2f627b"/>
+    <listType typeId="7472a187-b8f3-4271-8120-ae95dcdf614f" valueTypeId="d79f7d0c-aff9-4cbd-8749-3c3928e82f3c"/>
+    <managerType typeId="2f7a3b23-acdb-4c70-916f-52e67052db54" valueTypeId="cf71f247-eeba-40c6-b3cd-d5ecc8c92c0a"/>
+    <recordSetType typeId="a0c790d2-cd2b-421f-81cb-726aab7e3168" valueTypeId="437d3469-4ea1-4941-a4cc-d939009d48db"/>
+    <recordKeyType typeId="be78c72e-941a-49a3-b33c-491f6605d3bf" valueTypeId="305ac108-bc88-4873-9efe-e635e53c578d"/>
+    <recordType typeId="2b720a30-0794-422e-a225-389473e4ad5c" valueTypeId="4aa8ed44-07dd-4c97-8739-b1f6557b2bcc"/>
+  </producedTypes>
+  <name>Расходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="88e697d0-479d-4f3c-9ba5-4b31cb5ad496">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="961e2443-fc44-4201-a668-42046f397d9b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

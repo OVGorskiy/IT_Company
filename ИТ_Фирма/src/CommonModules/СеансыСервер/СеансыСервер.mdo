@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6ba51e3-7107-49d6-a9e1-a58680ac0b31">
+  <name>СеансыСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеансы сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a3b1608-5202-40bb-8e3a-9d8eff5d64bf">
+  <name>Сделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Resource</picture>
+  </picture>
+  <content>Enum.ТипыСобытий</content>
+  <content>Document.Событие</content>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>DocumentJournal.ДвижениеТоваров</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>DataProcessor.УстановкаЦенПродажи</content>
+  <content>AccumulationRegister.Товары</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>DataProcessor.ЗагрузкаПрайслистаКонтрагента</content>
+  <content>DataProcessor.ЗагрузкаПрайслистаИзФайлаXLSX</content>
+  <content>AccumulationRegister.ВзаиморасчетСКонтрагентами</content>
+  <content>AccumulationRegister.Расходы</content>
+  <content>AccumulationRegister.Доходы</content>
+  <content>DocumentJournal.Сделки</content>
+  <content>Report.ВзаиморасчетыСКонтрагентами</content>
+  <content>Report.ДвижениеТоваров</content>
+  <content>Report.ДоходыИРасходы</content>
+</mdclass:Subsystem>

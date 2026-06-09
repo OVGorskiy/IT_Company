@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57203f2-3ceb-43e4-9ced-0d186bcc6992">
+  <name>Взаимодействие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Task.Задача</content>
+  <content>BusinessProcess.Поручение</content>
+</mdclass:Subsystem>

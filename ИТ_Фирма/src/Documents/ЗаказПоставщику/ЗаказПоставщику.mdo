@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c98d54e9-7737-4cef-ab3a-680e9a477390">
+  <producedTypes>
+    <objectType typeId="964a6bbf-7e57-4d3b-80b5-f39b52eab301" valueTypeId="56f98343-afb8-4201-bb96-6e71ec940fc2"/>
+    <refType typeId="b35ef7ff-573d-4f7d-8a08-024b1e80c3c8" valueTypeId="81ccf6e2-53a9-4029-b31f-7d11877d60ef"/>
+    <selectionType typeId="07b54d80-e149-4dd8-9e8e-33e9cb667450" valueTypeId="e66b711c-e559-478b-b000-d8a3b2d0cc7a"/>
+    <listType typeId="3e1bbec2-5381-4f59-af80-0eb178376366" valueTypeId="9cd1b77a-7929-4ddb-adb7-461784a6930f"/>
+    <managerType typeId="aa677be3-8b47-435a-9879-3fac1ef483b0" valueTypeId="74edb401-ede3-4b7c-9fb4-a9e0afd8ea7b"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказПоставщику.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заказы Поставщикам</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаказПоставщику.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаказПоставщику.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.Расходы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="4aabdb9d-a5df-40d6-93ab-5121a08ac6a5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9c2758f-a788-4e06-8062-3e253b239e2b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d603ff33-88ec-4d07-bcca-db87ebe64214">
+    <name>ОтправитьЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить заказ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

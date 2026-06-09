@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="150180ce-33ed-4c2d-8ea0-9ba33e7f07ec">
+  <producedTypes>
+    <objectType typeId="15997339-1b20-4cda-ab3a-c18f99c6f939" valueTypeId="42c032a0-8530-4d2a-bb8e-146aa237c8cb"/>
+    <refType typeId="31bf4caf-c4e3-4196-a84e-e97dee26974c" valueTypeId="e6b7990f-1f1e-4ec5-94ae-d53c513ee13f"/>
+    <selectionType typeId="75b903bf-c707-40cc-96b9-0d663cfb556e" valueTypeId="81fc2874-b40c-423e-9ad9-75bb948eea4a"/>
+    <listType typeId="2381a454-fd2a-492f-998e-ba544a47831b" valueTypeId="349af68a-3257-4d03-af45-8a869d0f21cf"/>
+    <managerType typeId="9fbe3211-cbf7-4924-8290-28c838c2e7d4" valueTypeId="fa14e944-ed00-4206-bef8-611933cbbba9"/>
+  </producedTypes>
+  <name>ПоступлениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление денежных средств</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеДенежныхСредств.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПоступлениеДенежныхСредств.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ВзаиморасчетСКонтрагентами</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="36cc4e8b-3d73-43a0-bd9f-8074683fd072">
+    <name>Плательщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc7bcaa9-ac21-43b7-ae9c-ae00b3b24e94">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="790459b0-6d8f-4444-a0c0-e7550eff4b97">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6c6adaa4-c994-4539-94a3-da1cdb2dfd35">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

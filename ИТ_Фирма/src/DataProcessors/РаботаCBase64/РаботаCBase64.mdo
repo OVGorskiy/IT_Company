@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a84ee492-2544-4577-aff3-1d060350171b">
+  <producedTypes>
+    <objectType typeId="a32289fb-e404-4c8b-958b-6d396a331b0e" valueTypeId="9b08ab42-2ddc-4e8e-94ec-7c36b07815b1"/>
+    <managerType typeId="b7e47884-4800-4f0f-beec-0ed8f2073a95" valueTypeId="40e04785-5818-4ad4-be49-537d0da92942"/>
+  </producedTypes>
+  <name>РаботаCBase64</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа c base64</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РаботаCBase64.Form.Форма</defaultForm>
+  <attributes uuid="6f8aac09-565e-4277-85b6-4e1af7402173">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4378cee3-cc3b-4474-b13f-d1ea08c7a847">
+    <name>СтрокаBase64</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка base64</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e522170d-dc61-48d1-835a-7163d23d057c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

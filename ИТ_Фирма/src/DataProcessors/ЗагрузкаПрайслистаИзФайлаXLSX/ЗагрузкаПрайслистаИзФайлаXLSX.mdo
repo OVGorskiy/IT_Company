@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c946f11a-5d9a-491a-bb53-84764eab00d0">
+  <producedTypes>
+    <objectType typeId="55d98015-0b62-438b-af21-1dd43c96fa36" valueTypeId="fd1047bb-6726-4ee6-8218-ea1b933427a2"/>
+    <managerType typeId="d09ee36c-30aa-4095-90b3-3f603fd3142f" valueTypeId="e578a014-a148-4977-9072-615bc0f7d64e"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайслистаИзФайлаXLSX</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайслиста из файла XLSX</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайслистаИзФайлаXLSX.Form.Форма</defaultForm>
+  <attributes uuid="a2923788-52f2-4e38-9a3f-6112c9d3c0e7">
+    <name>Конрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="99224891-37ed-4f8d-b8b1-9bb5014e0a26">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="f85d7b83-4216-4e7c-b899-8c85b46f746a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

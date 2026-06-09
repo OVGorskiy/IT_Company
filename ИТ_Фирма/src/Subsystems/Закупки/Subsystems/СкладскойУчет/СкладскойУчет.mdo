@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49d39660-1983-432e-8839-e5a6c35681f1">
+  <name>СкладскойУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складской учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Склады</content>
+  <content>Report.ОстаткиПоСкладам</content>
+  <parentSubsystem>Subsystem.Закупки</parentSubsystem>
+</mdclass:Subsystem>

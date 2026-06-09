@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f19782d8-458f-4643-a368-d2333e3651ce">
+  <producedTypes>
+    <selectionType typeId="b3b05e1d-7b44-4bf8-b844-c8b142cfbb56" valueTypeId="5383ef68-85dc-40f9-b041-2e83649d85ae"/>
+    <listType typeId="70d8230d-4e2f-439b-93b4-d3faec782e0a" valueTypeId="18164e3a-2fb4-4fe0-94df-747b7fb1a457"/>
+    <managerType typeId="57706cac-fbc5-4eb0-b822-d32e706a638f" valueTypeId="bbdc4215-4308-49b3-9b7c-e4a761113892"/>
+    <recordSetType typeId="89d64ddc-93d1-44fc-b6e6-0bc7f6ba2085" valueTypeId="9da33e9d-9c94-4e65-b8cc-fa4910225d82"/>
+    <recordKeyType typeId="07bec623-4fbb-4924-bf83-9760e8499b0b" valueTypeId="c88d6b75-16d5-411c-b751-f84dd4da23b1"/>
+    <recordType typeId="cb5e36fd-7bb3-48ac-a587-5298ce57e094" valueTypeId="a0b338ad-1e93-4910-a03d-b940a2a67b36"/>
+    <extDimensionsType typeId="c7ed8870-1e65-48db-970e-3bf631b00534" valueTypeId="3cc699db-cfea-4c40-bffe-abcd4d8d51e7"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7d1e982c-a850-4e81-aeb8-e21652b98458">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="2edb86f3-d6ba-4662-82e4-b4b11bf07b6f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количественный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>

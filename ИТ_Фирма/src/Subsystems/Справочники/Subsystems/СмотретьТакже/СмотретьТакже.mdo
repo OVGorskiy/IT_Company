@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6758d94-ac90-4b53-bcff-1a77dde80c99">
+  <name>СмотретьТакже</name>
+  <synonym>
+    <key>ru</key>
+    <value>См.также</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Упаковки</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.НоменклатурныеГруппы</content>
+  <parentSubsystem>Subsystem.Справочники</parentSubsystem>
+</mdclass:Subsystem>

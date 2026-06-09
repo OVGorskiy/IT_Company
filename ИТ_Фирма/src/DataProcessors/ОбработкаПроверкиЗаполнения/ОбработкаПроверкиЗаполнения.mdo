@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fbaaffc-c32d-40fc-a0f1-e53bca014582">
+  <producedTypes>
+    <objectType typeId="e54f6013-0b37-4553-ab0e-32aad9947639" valueTypeId="a74466a6-fc8c-4014-9425-dd146ede6981"/>
+    <managerType typeId="36a565b0-cd00-455b-ab99-2c5ecc713333" valueTypeId="b51d0265-888f-4b45-a5b2-3aefcedf3bab"/>
+  </producedTypes>
+  <name>ОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка проверки заполнения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработкаПроверкиЗаполнения.Form.Форма</defaultForm>
+  <attributes uuid="ca97955c-4888-44ba-b317-69c96cde8d2c">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5725b8be-44b6-4154-bba9-25a046470482">
+    <name>ИНН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7389743f-718a-4a97-9c40-f9a7da27772f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
